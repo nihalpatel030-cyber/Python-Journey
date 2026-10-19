@@ -1,0 +1,26 @@
+a =int(input("enter a number="))
+b =int(input("enter a number="))
+while a<=b:
+    i = 1
+
+    while i <=10:
+        print(a,"x",i,"=",a*i)
+        i+=1
+    print("\t\t")
+    a+=1
+
+
+
+a =int(input("enter a number="))
+b =int(input("enter a number="))
+
+i=1
+
+while i<=10:
+    j=a
+
+    while j <=b:
+        print(j,"x",i,"=",j*i,end="\t")
+        j+=1
+    print("\t\t")
+    i+=1
